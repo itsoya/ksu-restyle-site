@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- TO DO LIST
+footer and footer info
+--> 
+<head>
+	<meta charset="utf-8">
+	<title>Undergraduate Permanent Schedule</title>
+	<meta name="description" content="IT department">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/scroll.css">
+	<style type="text/css">
+		#back-top span {
+			background:#030303 url(img/up-arrow.png) no-repeat center center;
+		}</style>
+	</head>
+
+	<body data-spy="scroll" data-target="#my-navbar">
+
+		<!--Banner-->
+		<div class="container" id="banner">
+			<a href="#" ><img class="navbar-brand" src="img/logo.png" alt="logo of Kennesaw state university"></a>
+			<input type="text" class="form-control search" placeholder="Search" name="srch-term" id="srch-term">
+		</div>
+		<!--End of Banner-->
+
+		<!--Navigation-->
+		<nav class="navbar navbar-inverse navbar-static-top" id="my-navbar">
+			<div class="container">
+
+				<!--Search box to insert search-->
+				<div class="searchbox">
+				</div>
+				<!--End of Search box -->
+				<div class="navbar-header">
+					<!--Navigation button-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!--End of navigation button-->
+
+				<!--Navigation Menu-->
+				<div class="collapse in navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Academics</a></li>
+						<li><a href="#">Research</a></li> 
+						<li><a href="#">Admission</a></li>
+						<li><a href="#">Campus Life</a></li> 
+						<li><a href="#">Athletics</a></li>
+						<li><a href="#">News</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- End Container-->
+		</nav>
+		<!-- End Navigation -->
+
+		<!--Jumbotron-->
+		<div class="jumbotron">
+			<div class="container text-center">
+				<h1>Information Technology</h1>
+				<p>Undergraduate Permanent Schedule</p>
+				<!--toggle sidebar button-->
+				<p class="visible-xs">
+					<button type="button" class="btn btn-warning btn-lg" data-toggle="offcanvas">        
+						<span class="glyphicon glyphicon-plus"></span> 
+					</button>
+				</p>
+				<!--End of sidebar button-->
+			</div>
+			<!--end container-->
+		</div>
+		<!--end of jumbotron-->
+
+		<!--sidebar and main content-->
+		<!--Container fluid-->
+		<div class="container-fluid">
+
+			<!--Row off canvas-->
+			<div class="row row-offcanvas row-offcanvas-left">
+
+				<!--Columns sidebar off canvas-->
+				<div class="col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
+
+					<!--Sidbar navigation-->
+					<ul class="nav nav-sidebar">
+						<li ><a href="#">About Us</a></li>
+						<li><a href="#">Degrees & Certificates</a></li>
+						<li><a href="#">DegreesWorks & Advertisement</a></li>
+						<li><a href="#">Student Information</a></li>
+					</ul>
+					<ul class="nav nav-sidebar">
+						<li><a href="index.html">IT Faculty (works)</a></li>
+						<li><a href="#">Research</a></li>
+						<li><a href="#">Accreditation</a></li>
+						<li><a href="permschedule.html">Permanent Schedules (works)</a></li>
+						<li><a href="#">College of Computing & Software Engineering</a></li>  
+						<li> 
+							<p>
+								Information Technology Dept.
+								Building J
+								Suite 393
+								1100 South Marietta Pkwy
+								Marietta, GA 30060-2855
+							</p>
+						</li>
+					</ul>
+					<!--End of sidebar navigation-->
+
+				</div>
+				<!--End of sidbar-offcanvas-->
+
+				<!--Main content-->
+				<div class="col-sm-9 col-md-10  table-responsive" style="padding-left: 0px;"> 
+					<!--table symbols and meaning-->
+					<table border="1" class="table table-condensed">
+						<thead>
+							<tr>
+								<th>Symbol</th>
+								<th>Meaning</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>D</td>
+								<td>Offered during the day</td>
+							</tr>
+							<tr>
+								<td>E</td>
+								<td>Offering during the evening</td>
+							</tr>
+							<tr>
+								<td>O</td>
+								<td>Offering online</td>
+							</tr>
+							<tr>
+								<td>XY</td>
+								<td>Offered both X and Y</td>
+							</tr>
+							<tr>
+								<td>X/Y</td>
+								<td>Offered either X or Y with preference for X</td>
+							</tr>
+							<tr>
+								<td>+</td>
+								<td>Offered.&nbsp; Mode and time undetermined</td>
+							</tr>
+							<tr>
+								<td>-</td>
+								<td>Not guaranteed to be offered</td>
+							</tr>
+							<tr>
+								<td>F/E O</td>
+								<td>Fall even or odd</td>
+							</tr>
+							<tr>
+								<td>Sp/E O</td>
+								<td>Spring even or odd</td>
+							</tr>
+							<tr>
+								<td>Su/ E O</td>
+								<td>Summer even or odd</td>
+							</tr>
+						</tbody>
+					</table> 
+					<!--End of table symbols and meaning-->
+					<!-- table with classes-->
+					<table border="1" class="table table-hover table-condensed">
+						<thead>
+							<tr>
+								<th>Course Code</th>
+								<th>Course Title
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr data-toggle="collapse" data-target="#it1113" class="accordion-toggle">
+								<td>IT 1113</td>
+								<td>Programming Principles  &#8645;</td>
+							</tr>
+							<tr>
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="it1113"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>D</td>
+													<td>E</td>
+													<td>E</td>
+													<td>D</td>
+													<td>E</td>
+													<td>D</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT1113-->
+							<tr data-toggle="collapse" data-target="#it1324" class="accordion-toggle">
+								<td>IT 1324</td>
+								<td>Advanced Programming Principles &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="it1324"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E</td>
+													<td>D/O</td>
+													<td>E</td>
+													<td>E/O</td>
+													<td>D/O</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT1324-->
+							<tr data-toggle="collapse" data-target="#IT3123" class="accordion-toggle">
+								<td>IT 3123</td>
+								<td>Hardware/Software Concepts &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT3123"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>D/O</td>
+													<td>E/O</td>
+													<td>D</td>
+													<td>D</td>
+													<td>D/O</td>
+													<td>E</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT3123-->
+							<tr data-toggle="collapse" data-target="#IT3203" class="accordion-toggle">
+								<td>IT 3203</td>
+								<td>Introduction to Web Development &#8645;</td>
+							</tr>
+							<tr>
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT3203"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E</td>
+													<td>D/O</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>D/O</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT3203-->
+							<tr data-toggle="collapse" data-target="#IT3223" class="accordion-toggle">
+								<td>IT 3223</td>
+								<td>Software Acquisition and Project Management &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT3223"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>D/O</td>
+													<td>E/O</td>
+													<td>O</td>
+													<td>D</td>
+													<td>E/O</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT3223-->
+							<tr data-toggle="collapse" data-target="#IT3423" class="accordion-toggle">
+								<td>IT 3423</td>
+								<td>Operating Systems Concepts and Administration &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT3423"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E</td>
+													<td>D/O</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>D</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT3423-->
+							<tr data-toggle="collapse" data-target="#IT3503" class="accordion-toggle">
+								<td>IT 3503</td>
+								<td>Foundation of HIT &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT3503"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E/O</td>
+													<td>-</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>-</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT3503-->
+
+							<tr data-toggle="collapse" data-target="#IT3653" class="accordion-toggle">
+								<td>IT 3653</td>
+								<td>Client Server System Administration &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT3653"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E</td>
+													<td>-</td>
+													<td>-</td>
+													<td>-</td>
+													<td>D</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT3653-->
+							<tr data-toggle="collapse" data-target="#IT3883" class="accordion-toggle">
+								<td>IT 3883</td>
+								<td>Advanced Application Development &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT3883"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>D/O</td>
+													<td>E</td>
+													<td>-</td>
+													<td>E</td>
+													<td>D/O</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT3883-->
+							<tr data-toggle="collapse" data-target="#IT4123" class="accordion-toggle">
+								<td>IT 4123</td>
+								<td>Electronic Commerce &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4123"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>O</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>D/O</td>
+													<td>E/O</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4123-->
+							<tr data-toggle="collapse" data-target="#IT4153" class="accordion-toggle">
+								<td>IT 4153</td>
+								<td>Advanced Databases &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4153"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>E</td>
+													<td>-</td>
+													<td>-</td>
+													<td>D</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4153-->
+							<tr data-toggle="collapse" data-target="#IT4203" class="accordion-toggle">
+								<td>IT 4203</td>
+								<td>Advanced Web Development &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4203"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E</td>
+													<td>-</td>
+													<td>-</td>
+													<td>D</td>
+													<td>-</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4203-->
+							<tr data-toggle="collapse" data-target="#IT4213" class="accordion-toggle">
+								<td>IT 4213</td>
+								<td>Mobile Web Development &#8645;</td>
+							</tr>
+							<tr>
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4213"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>E/O</td>
+													<td>-</td>
+													<td>-</td>
+													<td>-</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4213-->
+							<tr data-toggle="collapse" data-target="#IT4323" class="accordion-toggle">
+								<td>IT 4323</td>
+								<td>Data Communications and Networks &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4323"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E/O</td>
+													<td>D/O</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>D</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4323-->
+							<tr data-toggle="collapse" data-target="#IT4333" class="accordion-toggle">
+								<td>IT 4333</td>
+								<td>Network Configuration and Administration &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4333"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E/O</td>
+													<td>-</td>
+													<td>E</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>E</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4333-->
+							<tr data-toggle="collapse" data-target="#IT4423" class="accordion-toggle">
+								<td>IT 4423</td>
+								<td>Unix/Linux &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4423"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E</td>
+													<td>E/O</td>
+													<td>-</td>
+													<td>D</td>
+													<td>D/O</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4423-->
+							<tr data-toggle="collapse" data-target="#IT4513" class="accordion-toggle">
+								<td>IT 4513</td>
+								<td>Electronic Health Record Systems and Application &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4513"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>E/O</td>
+													<td>-</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4513-->
+
+							<tr data-toggle="collapse" data-target="#IT4523" class="accordion-toggle">
+								<td>IT 4523</td>
+								<td>Clinical Processes and Workflows &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4523"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E/O</td>
+													<td>-</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>-</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4523-->
+							<tr data-toggle="collapse" data-target="#IT4533" class="accordion-toggle">
+								<td>IT 4533</td>
+								<td>Health Information Security and Privacy &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4533"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>E</td>
+													<td>-</td>
+													<td>-</td>
+													<td>E</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4533-->
+							<tr data-toggle="collapse" data-target="#IT4673" class="accordion-toggle">
+								<td>IT 4673</td>
+								<td>Virtual IT Systems &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4673"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>E/O</td>
+													<td>-</td>        
+													<td>-</td>
+													<td>D/O</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4673-->
+							<tr data-toggle="collapse" data-target="#IT4683" class="accordion-toggle">
+								<td>IT 4683</td>
+								<td>Management of Information Technology and HCI &#8645;
+								</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4683"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E/O</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>E/0</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4683-->
+							<tr data-toggle="collapse" data-target="#IT4713" class="accordion-toggle">
+								<td>IT 4713</td>
+								<td>Business Intelligence &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4713"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E/O</td>
+													<td>-</td>
+													<td>-</td>
+													<td>-</td>
+													<td>-</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4713-->
+							<tr data-toggle="collapse" data-target="#IT4723" class="accordion-toggle">
+								<td>IT 4723</td>
+								<td>IT Policy and Law &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4723"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>D</td>
+													<td>O</td>
+													<td>-</td>
+													<td>O</td>
+													<td>E</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4723-->
+							<tr data-toggle="collapse" data-target="#IT4823" class="accordion-toggle">
+								<td>IT 4823</td>
+								<td>Information Security Administration &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4823"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E/O</td>
+													<td>E/O</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>E/O</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4823-->
+							<tr data-toggle="collapse" data-target="#IT4833" class="accordion-toggle">
+								<td>IT 4833</td>
+								<td>Wireless Security &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4833"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>E</td>
+													<td>-</td>
+													<td>-</td>
+													<td>D/O</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4833-->
+							<tr data-toggle="collapse" data-target="#IT4843" class="accordion-toggle">
+								<td>IT 4843</td>
+								<td>Ethical Hacking &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4843"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>E</td>
+													<td>-</td>
+													<td>-</td>
+													<td>D/E</td>
+													<td>-</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4843-->
+							<tr data-toggle="collapse" data-target="#IT4853" class="accordion-toggle">
+								<td>IT 4853</td>
+								<td>Computer Forensics &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4853"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>-</td>
+													<td>E</td>
+													<td>-</td>
+													<td>-</td>
+													<td>E</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4853-->
+							<tr data-toggle="collapse" data-target="#IT4983" class="accordion-toggle">
+								<td>IT 4983</td>
+								<td>IT Capstone &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4983"> 
+										<table border="1" class="table table-hover">
+											<thead>
+												<tr>
+													<th>F/E</th>
+													<th>Sp/O</th>
+													<th>Su/O</th>
+													<th>F/O</th>
+													<th>Sp/E</th>
+													<th>Su/E</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>D/O</td>
+													<td>E</td>
+													<td>-</td>
+													<td>E/O</td>
+													<td>D</td>
+													<td>-</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4983-->
+							<tr data-toggle="collapse" data-target="#IT4903" class="accordion-toggle">
+								<td>IT 4903</td>
+								<td>Special Topics &#8645;</td>
+							</tr>
+							<tr >
+								<td colspan="2" class="hiddenRow">
+									<div class="accordian-body collapse in table-responsive" id="IT4903"> 
+										<table border="1" class="table table-hover">
+											<tbody>
+												<tr>
+													<td>As needed</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</td>
+							</tr>
+							<!--IT4903-->
+						</tbody>
+					</table>
+					<!--End of table with classes-->
+				</div>
+				<!--End of Main-->
+			</div>
+			<!--End of row off canvas-->
+		</div>
+		<!--End of container fluid-->
+
+		<!--Top of page-->
+		<p id="back-top">
+			<a href="#top"><span></span></a>
+		</p>
+		<!--end of top of page-->
+
+		<!--Footer-->
+		<footer class="footer">
+			<hr>
+			<div class="container text-center">
+
+				<div class="contact_info" id="contact_info">
+					<div class="kennesaw_campus">
+						<h2>Kennesaw Campus</h2>
+						<p>1000 Chastain Road<br>
+							Kennesaw, GA 30144<br>
+							Phone: 470-578-6000</p>
+						</div>
+
+						<div class="marietta_campus">
+							<h2>Marietta Campus</h2>
+							<p>1100 South Marietta Pkwy<br>
+								Marietta, GA 30060<br>
+								Phone: 678-915-7778</p>
+							</div>
+						</div>
+
+						<hr>
+						<div class="copyright">
+							<ul class="list-inline social_media">
+								<li> <a href="https://www.facebook.com/KennesawStateUniversity"><img src="img/icons/facebook_round.png" alt="Facebook"></a></li>
+								<li><a href="https://twitter.com/kennesawstate"><img src="img/icons/twitter_round.png" alt="Twitter"></a></li>
+								<li> <a href="https://www.linkedin.com/company/kennesaw-state-university"><img src="img/icons/linkedin_round.png" alt="LinkedIn"></a></li>
+								<li> <a href="https://plus.google.com/u/0/+kennesawstateuniversity/posts"><img src="img/icons/google_round.png" alt="Google Plus"></a></li>
+								<li> <a href="http://instagram.com/kennesawstateuniversity"><img src="img/icons/instagram_round.png" alt="Instagram"></a></li>
+								<li> <a href="https://www.youtube.com/user/KennesawStatenow"><img src="img/icons/youtube_round.png" alt="Youtube"></a></li>
+							</ul>
+						</div>
+						<p>&copy;  2015 Kennesaw State University. All Rights Reserved.</p>
+					</div>
+					<!-- end Container-->
+				</footer>
+				<!--End of footer-->
+
+				<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+				<!-- Latest compiled and minified JavaScript -->
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+				<script src="js/main.js"></script>
+
+			</body>
+			</html>
